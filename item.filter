@@ -48,6 +48,12 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>10]:	// 投掷药剂�
 ItemDisplay[key CLVL>60]:			// 钥匙（60级以上屏蔽）
 ItemDisplay[(tsc OR isc) CLVL>60]:	// 卷轴（60级以上屏蔽）
 
+// 卖店装备
+ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %NAME% ($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% ($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% ($%PRICE%)
+ItemDisplay[WP12 NMAG !RW !ETH (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% ($%PRICE%)
+
 // 显示装备
 ItemDisplay[leg]: %NAME%			// 维特之脚
 ItemDisplay[WP13 NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)	// 四孔权杖（TP杖）
@@ -63,7 +69,7 @@ ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:		// 劣质装备（5级以上屏蔽�
 ItemDisplay[NMAG SOCK=1 CLVL>60]:				// 一孔底材（60级以上屏蔽）
 ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG !RW CLVL>80]:		// 普通/扩展底材（80级以上屏蔽）
 ItemDisplay[(aq2 OR cq2) MAG CLVL>80]:			// 魔法箭矢、十字弓弹（80级以上屏蔽）
-ItemDisplay[(WEAPON OR ARMOR) !WP12 !EQ7 (NORM OR EXC) MAG CLVL>80]:		// 其余魔法垃圾（80级以上屏蔽）
+ItemDisplay[(WEAPON OR ARMOR) !EQ7 (NORM OR EXC) MAG CLVL>80]:		// 其余魔法垃圾（80级以上屏蔽）
 
 // 显示无形
 ItemDisplay[ETH SOCK=0]: %NAME% (Eth)
