@@ -56,7 +56,7 @@ ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %NAME% ($%PRICE%)
 
 // 显示装备
 ItemDisplay[leg]: %NAME%			// 维特之脚
-ItemDisplay[WP13 NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)	// 四孔权杖（TP杖）
+ItemDisplay[WP13 NMAG !ETH (SOCK=4 OR SOCK=5)]: %NAME% (%SOCKETS%)	// 权杖
 ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	// 精神剑（90级以下显示）
 ItemDisplay[(WP7 OR WP8) (NORM OR EXC) NMAG SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	// 眼光（90级以下显示）
 ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=0]: %NAME%		// 满防法铠（谜团）
