@@ -31,8 +31,7 @@ ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %PURPLE%%NAME%	// 护身符（染紫）
 
 // 屏蔽金币
 ItemDisplay[GOLD<100 CLVL>10]:
-ItemDisplay[GOLD<200 CLVL>20]:
-ItemDisplay[GOLD<500 CLVL>50]:
+ItemDisplay[GOLD<500 CLVL>30]:
 ItemDisplay[GOLD<1000 CLVL>60]:
 ItemDisplay[GOLD<5000 CLVL>80]:
 ItemDisplay[GOLD<10000 CLVL>90]:
