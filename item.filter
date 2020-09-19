@@ -1,39 +1,3 @@
-
-// 符文标示
-ItemDisplay[r01]: %RUNENAME% El
-ItemDisplay[r02]: %RUNENAME% Eld
-ItemDisplay[r03]: %RUNENAME% Tir
-ItemDisplay[r04]: %RUNENAME% Nef
-ItemDisplay[r05]: %RUNENAME% Eth
-ItemDisplay[r06]: %RUNENAME% Ith
-ItemDisplay[r07]: %RUNENAME% Tal
-ItemDisplay[r08]: %RUNENAME% Ral
-ItemDisplay[r09]: %RUNENAME% Ort
-ItemDisplay[r10]: %RUNENAME% Thul
-ItemDisplay[r11]: %RUNENAME% Amn
-ItemDisplay[r12]: %RUNENAME% Sol
-ItemDisplay[r13]: %RUNENAME% Shael
-ItemDisplay[r14]: %RUNENAME% Dol
-ItemDisplay[r15]: %RUNENAME% Hel
-ItemDisplay[r16]: %RUNENAME% Io
-ItemDisplay[r17]: %RUNENAME% Lum
-ItemDisplay[r18]: %RUNENAME% Ko
-ItemDisplay[r19]: %RUNENAME% Fal
-ItemDisplay[r20]: %RUNENAME% Lem
-ItemDisplay[r21]: %RUNENAME% Pul
-ItemDisplay[r22]: %RUNENAME% Um
-ItemDisplay[r23]: %RUNENAME% Mal
-ItemDisplay[r24]: %RUNENAME% Ist
-ItemDisplay[r25]: %RUNENAME% Gul
-ItemDisplay[r26]: %RUNENAME% Vex
-ItemDisplay[r27]: %RUNENAME% Ohm
-ItemDisplay[r28]: %RUNENAME% Lo
-ItemDisplay[r29]: %RUNENAME% Sur
-ItemDisplay[r30]: %RUNENAME% Ber
-ItemDisplay[r31]: %RUNENAME% Jah
-ItemDisplay[r32]: %RUNENAME% Cham
-ItemDisplay[r33]: %RUNENAME% Zod
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 地图等级标示
