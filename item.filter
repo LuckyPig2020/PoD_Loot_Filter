@@ -1,5 +1,42 @@
 
-// 地图等级表示
+// 符文标示
+ItemDisplay[r01]: %NAME% El
+ItemDisplay[r02]: %NAME% Eld
+ItemDisplay[r03]: %NAME% Tir
+ItemDisplay[r04]: %NAME% Nef
+ItemDisplay[r05]: %NAME% Eth
+ItemDisplay[r06]: %NAME% Ith
+ItemDisplay[r07]: %NAME% Tal
+ItemDisplay[r08]: %NAME% Ral
+ItemDisplay[r09]: %NAME% Ort
+ItemDisplay[r10]: %NAME% Thul
+ItemDisplay[r11]: %NAME% Amn
+ItemDisplay[r12]: %NAME% Sol
+ItemDisplay[r13]: %NAME% Shael
+ItemDisplay[r14]: %NAME% Dol
+ItemDisplay[r15]: %NAME% Hel
+ItemDisplay[r16]: %NAME% Io
+ItemDisplay[r17]: %NAME% Lum
+ItemDisplay[r18]: %NAME% Ko
+ItemDisplay[r19]: %NAME% Fal
+ItemDisplay[r20]: %NAME% Lem
+ItemDisplay[r21]: %NAME% Pul
+ItemDisplay[r22]: %NAME% Um
+ItemDisplay[r23]: %NAME% Mal
+ItemDisplay[r24]: %NAME% Ist
+ItemDisplay[r25]: %NAME% Gul
+ItemDisplay[r26]: %NAME% Vex
+ItemDisplay[r27]: %NAME% Ohm
+ItemDisplay[r28]: %NAME% Lo
+ItemDisplay[r29]: %NAME% Sur
+ItemDisplay[r30]: %NAME% Ber
+ItemDisplay[r31]: %NAME% Jah
+ItemDisplay[r32]: %NAME% Cham
+ItemDisplay[r33]: %NAME% Zod
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 地图等级标示
 ItemDisplay[ma2]: %NAME% (T3)	// 遗忘沙漠
 ItemDisplay[ma4]: %NAME% (T2)	// 亵渎神殿
 ItemDisplay[ma5]: %NAME% (T1)	// 冰冻高原
