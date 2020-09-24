@@ -63,8 +63,8 @@ ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	// 精神
 ItemDisplay[(WP7 OR WP8) (NORM OR EXC) NMAG SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	// 眼光（90级以下显示）
 ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=0]: %NAME%		// 满防法铠（谜团）
 ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=3]: %NAME% (%SOCKETS%)	// 满防法铠（谜团）
-ItemDisplay[(CL1 OR CL2 OR CL4) MAG !ETH]: %NAME%		// 职业专属装备
-ItemDisplay[(CL5 OR CL6) MAG]: %NAME%		// 职业专属装备
+ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5) MAG !ETH]: %NAME%		// 职业专属装备
+ItemDisplay[CL6 MAG]: %NAME%		// 法师法球
 
 // 屏蔽装备
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:		// 劣质装备（5级以上屏蔽）
