@@ -14,8 +14,8 @@ ItemDisplay[ma10]: %NAME% (T1)  // 寒冰地窟
 
 // 宝石染色
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) CLVL>20]:   // 碎裂（20级以上屏蔽）
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) CLVL>30]:		// 裂开（30级以上屏蔽）
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) CLVL>40]:		// 普通（40级以上屏蔽）
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) CLVL>30]: // 裂开（30级以上屏蔽）
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) CLVL>40]: // 普通（40级以上屏蔽）
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: %RED%%NAME%   // 碎裂
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // 裂开
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通
@@ -58,12 +58,12 @@ ItemDisplay[WP12 NMAG !RW !ETH (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 O
 // 显示装备
 ItemDisplay[leg]: %NAME%			  // 维特之脚
 ItemDisplay[CL6 MAG]: %NAME%		// 法师法球
-ItemDisplay[(CL1 OR CL2 OR CL4) MAG !ETH]: %NAME%		// 野蛮人/德鲁伊头、死灵盾
+ItemDisplay[(CL1 OR CL2 OR CL4) MAG !ETH]: %NAME%	// 野蛮人/德鲁伊头、死灵盾
 ItemDisplay[fla NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)     // 四孔链枷（HotO）
 ItemDisplay[crs NMAG !ETH SOCK=5]: %NAME% (%SOCKETS%)     // 五孔水晶剑（CTA）
 ItemDisplay[WP13 NMAG !ETH SOCK=5]: %NAME% (%SOCKETS%)	  // 五孔权杖（CTA）
-ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=0]: %NAME%		      // 满防法铠（谜团）
-ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=3]: %NAME% (%SOCKETS%)	     // 满防法铠（谜团）
+ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=0]: %NAME%		    // 满防法铠（谜团）
+ItemDisplay[xtp DEF>260 NMAG !ETH SOCK=3]: %NAME% (%SOCKETS%)	    // 满防法铠（谜团）
 ItemDisplay[WP13 NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	   // 圣雷权杖（90级以上屏蔽）
 ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	  // 精神剑（90级以上屏蔽）
 ItemDisplay[(WP7 OR WP8) (NORM OR EXC) NMAG SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	  // 非精华眼光（90级以上屏蔽）
@@ -73,6 +73,7 @@ ItemDisplay[(aq2 OR cq2) MAG CLVL>80]:        // 蓝色箭矢、十字弓弹（8
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:    // 劣质底材（5级以上屏蔽）
 ItemDisplay[NMAG SOCK=1 CLVL>60]:             // 一孔底材（60级以上屏蔽）
 ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG !RW CLVL>80]:		// 非精华底材（80级以上屏蔽）
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) ELT NMAG CLVL>80]:		    // 精华手、鞋、腰（80级以上屏蔽）
 ItemDisplay[(WEAPON OR ARMOR) !EQ7 (NORM OR EXC) MAG CLVL>80]:		// 非精华蓝装（80级以上屏蔽）
 
 // 标示无形
