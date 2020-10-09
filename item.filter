@@ -91,10 +91,10 @@ ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK
 
 // 屏蔽白装
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:    // 劣质（6级以上屏蔽）
-ItemDisplay[NMAG SOCK=1 CLVL>29]:             // 一孔（30级以上屏蔽）
-ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG CLVL>79]:	  // 普通、拓展（80级以上屏蔽）
-ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG CLVL>79]:	  // 普通、拓展（80级以上屏蔽）
-ItemDisplay[WEAPON ELT NMAG SOCK=2 CLVL>79]:	  // 两孔精华衣服（80级以上屏蔽）
+ItemDisplay[(WEAPON OR ARMOR) NMAG SOCK=1 CLVL>29]:           // 一孔底材（30级以上屏蔽）
+ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG CLVL>79]:	  // 非精华底材（80级以上屏蔽）
+ItemDisplay[(WEAPON OR ARMOR) (NORM OR EXC) NMAG CLVL>79]:	  // 非精华拓展底材（80级以上屏蔽）
+ItemDisplay[ARMOR ELT NMAG SOCK=2 CLVL>79]:	  // 两孔精华衣服（80级以上屏蔽）
 ItemDisplay[(WP4 OR WP5 OR WP6 OR WP9 OR WP10) ELT NMAG CLVL>79]:    // 精华匕首、投掷、标枪、弓/十字弓（80级以上屏蔽）
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ELT NMAG CLVL>79]:    // 精华手套、鞋子、腰带（80级以上屏蔽）
 
