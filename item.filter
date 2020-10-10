@@ -144,6 +144,7 @@ ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 屏蔽其他
+ItemDisplay[(aq2 OR cq2) MAG]:    // 箭矢、十字弓弹
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:   // 劣质装备（6级以上）
 ItemDisplay[(WEAPON OR ARMOR) NMAG SOCK=1 CLVL>29]:    // 一孔底材（30级以上）
 ItemDisplay[(ARMOR OR WEAPON) (NMAG OR MAG OR RARE) CLVL>79]:    // 其他（80级以上）
