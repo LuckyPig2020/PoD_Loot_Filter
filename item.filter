@@ -109,6 +109,8 @@ ItemDisplay[(pab OR pac) NMAG !ETH SOCK=4 RES>39]: %NAME% (%SOCKETS%)   // 精�
 ItemDisplay[(pab OR pac) NMAG !ETH !INF SOCK=0 RES>44]: %NAME%   // 精神（小盾，45R以上，打孔）
 ItemDisplay[paf NMAG ETH SOCK=4 RES>39]: %NAME% (Eth) (%SOCKETS%)   // 流亡（无形旋风，40R以上）
 ItemDisplay[paf NMAG ETH !INF SOCK=0 RES>39]: %NAME% (Eth)   // 流亡（无形旋风，40R以上，打孔）
+ItemDisplay[CL4 NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)    // 死灵盾牌（90级以下显示）
+ItemDisplay[CL4 NMAG !ETH !INF SOCK=0 CLVL<90]: %NAME%    // 死灵盾牌（90级以下显示）
 
 // 头盔底材
 ItemDisplay[(ci3 OR uh9) NMAG !ETH SOCK=3]: %NAME% (%SOCKETS%)   // 梦境
@@ -116,8 +118,8 @@ ItemDisplay[CL1 NMAG !ETH (SOCK=2 OR SOCK=3) (SK221>2 OR SK225>2 OR SK238>2 OR S
 ItemDisplay[CL1 NMAG !ETH !INF SOCK=0 (SK221>2 OR SK225>2 OR SK238>2 OR SK239>2 OR SK243>2 OR SK245>2 OR SK250>2)]: %NAME%   // 德鲁伊头（打孔）
 ItemDisplay[CL2 NMAG !ETH (SOCK=2 OR SOCK=3) SK149>2]: %NAME% (%SOCKETS%)   // 3BO野蛮人头
 ItemDisplay[CL2 NMAG !ETH !INF SOCK=0 SK149>2]: %NAME%   // 3BO野蛮人头（打孔）
-ItemDisplay[(CL1 OR CL2 OR CL4) NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)    // 职业防具（90级以下显示）
-ItemDisplay[(CL1 OR CL2 OR CL4) NMAG !ETH !INF SOCK=0 CLVL<90]: %NAME%    // 职业防具（90级以下显示）
+ItemDisplay[(CL1 OR CL2) NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)    // 职业头盔（90级以下显示）
+ItemDisplay[(CL1 OR CL2) NMAG !ETH !INF SOCK=0 CLVL<90]: %NAME%    // 职业头盔（90级以下显示）
 
 // 蓝装
 ItemDisplay[WEAPON TABSK34>2]: %NAME% %RED%(3BO)    // 3BO武器（染红）
@@ -125,14 +127,14 @@ ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME% %RED%(3/
 ItemDisplay[(xvg OR uvg) MAG ILVL>77]: %NAME% %ORANGE%(%ILVL%)   // 吸血手（橙装底材）
 ItemDisplay[(xmg OR umg) MAG ILVL>78]: %NAME% %ORANGE%(%ILVL%)   // 击退手（橙装底材）
 ItemDisplay[EQ4 MAG !ETH]: %NAME%  // 其他手套
-ItemDisplay[(CL1 OR CL2 OR CL4) MAG !ETH CLVL<90]: %NAME%    // 职业防具（90级以下显示）
+ItemDisplay[(CL1 OR CL2 OR CL4 OR CL6 OR WP12) MAG !ETH CLVL<90]: %NAME%    // 职业装备（90级以下显示）
 
 // 黄装
 ItemDisplay[(aq2 OR cq2) RARE]: %NAME%    // 箭矢、十字弓弹
 ItemDisplay[(EQ4 OR EQ5 OR EQ7) RARE !ETH]: %NAME%    // 手套、鞋子、头饰
 ItemDisplay[CL5 ELT RARE !ETH]: %NAME%    // 刺客爪
 ItemDisplay[CL5 ELT RARE ETH]: %NAME% (Eth)   // 刺客爪（无形）
-ItemDisplay[(CL1 OR CL2 OR CL4 OR CL6 OR WP12) RARE !ETH CLVL<90]: %NAME%    // 职业装备（90级以下显示）
+ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR WP12) RARE !ETH CLVL<90]: %NAME%    // 职业装备（90级以下显示）
 
 // 35000装备
 ItemDisplay[(7tk OR 7ta OR 7bk) (NMAG OR MAG OR RARE) !ETH]: %NAME% ($%PRICE%)    // 小型投掷武器
@@ -154,3 +156,4 @@ ItemDisplay[ETH SOCK=0]: %NAME% (Eth)
 // 标示凹槽数
 ItemDisplay[!ETH SOCK>0]: %NAME% (%SOCKETS%)
 ItemDisplay[ETH SOCK>0]: %NAME% (Eth) (%SOCKETS%)
+
