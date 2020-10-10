@@ -1,6 +1,41 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-// 地图等级标示
+// 屏蔽金币
+ItemDisplay[GOLD<100 CLVL>10]:
+ItemDisplay[GOLD<500 CLVL>30]:
+ItemDisplay[GOLD<1000 CLVL>60]:
+ItemDisplay[GOLD<5000 CLVL>80]:
+ItemDisplay[GOLD<8000 CLVL>90]:
+
+// 屏蔽药水
+ItemDisplay[(hp1 OR mp1) CLVL>19]:    // 轻微（20级以上屏蔽）
+ItemDisplay[(hp2 OR mp2) CLVL>29]:    // 轻型（30级以上屏蔽）
+ItemDisplay[(hp3 OR mp3) CLVL>39]:    // 普通（40级以上屏蔽）
+ItemDisplay[(hp4 OR mp4) CLVL>59]:    // 强力（60级以上屏蔽）
+ItemDisplay[(vps OR wms OR yps) CLVL>9]:    // 耐力、融解、解毒（20级以上屏蔽）
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:    // 爆炸、瓦斯（10级以上屏蔽）
+
+// 屏蔽钥匙、卷轴
+ItemDisplay[key CLVL>79]:              // 钥匙（80级以上屏蔽）
+ItemDisplay[(tsc OR isc) CLVL>79]:     // 卷轴（80级以上屏蔽）
+
+// 屏蔽低级宝石
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) CLVL>19]:   // 碎裂（20级以上屏蔽）
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) CLVL>29]:   // 裂开（30级以上屏蔽）
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) CLVL>39]:   // 普通（40级以上屏蔽）
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 物品染色
+ItemDisplay[jew MAG]: %RED%%NAME%   // 蓝色珠宝（染红）
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %PURPLE%%NAME%    // 护身符（染紫）
+ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: %RED%%NAME%   // 碎裂（染红）
+ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // 裂开（染红）
+ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通（染红）
+ItemDisplay[gzv OR gly OR glb OR glg OR glr OR glw OR skl]: %RED%%NAME%     // 無瑕疵（染红）
+ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %RED%%NAME%     // 完美（染红）
+
+// 标示地图等级
 ItemDisplay[ma2]: %NAME% (T3)   // 遗忘沙漠
 ItemDisplay[ma4]: %NAME% (T2)   // 亵渎神殿
 ItemDisplay[ma5]: %NAME% (T1)   // 冰冻高原
@@ -12,80 +47,41 @@ ItemDisplay[ma10]: %NAME% (T1)  // 寒冰地窟
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-// 宝石染色
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) CLVL>20]:   // 碎裂（20级以上屏蔽）
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) CLVL>30]:   // 裂开（30级以上屏蔽）
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) CLVL>40]:   // 普通（40级以上屏蔽）
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: %RED%%NAME%   // 碎裂（染红）
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // 裂开（染红）
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通（染红）
-ItemDisplay[gzv OR gly OR glb OR glg OR glr OR glw OR skl]: %RED%%NAME%     // 無瑕疵（染红）
-ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %RED%%NAME%     // 完美（染红）
-
-// 珠宝染色
-ItemDisplay[jew MAG]: %RED%%NAME%   // 蓝色珠宝（染红）
-
-// 护身符染色
-ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %PURPLE%%NAME%    // 护身符（染紫）
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-// 屏蔽金币
-ItemDisplay[GOLD<100 CLVL>10]:
-ItemDisplay[GOLD<500 CLVL>30]:
-ItemDisplay[GOLD<1000 CLVL>60]:
-ItemDisplay[GOLD<5000 CLVL>80]:
-ItemDisplay[GOLD<8000 CLVL>90]:
-
-// 屏蔽药水
-ItemDisplay[(hp1 OR mp1) CLVL>20]:    // 轻微（20级以上屏蔽）
-ItemDisplay[(hp2 OR mp2) CLVL>30]:    // 轻型（30级以上屏蔽）
-ItemDisplay[(hp3 OR mp3) CLVL>40]:    // 普通（40级以上屏蔽）
-ItemDisplay[(hp4 OR mp4) CLVL>70]:    // 强力（70级以上屏蔽）
-ItemDisplay[(vps OR wms OR yps) CLVL>20]:    // 耐力、融解、解毒（20级以上屏蔽）
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>20]:    // 爆炸、瓦斯（10级以上屏蔽）
-
-// 屏蔽钥匙、卷轴
-ItemDisplay[key CLVL>60]:              // 钥匙（60级以上屏蔽）
-ItemDisplay[(tsc OR isc) CLVL>60]:     // 卷轴（60级以上屏蔽）
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
 // 符文之语
 ItemDisplay[RW !ETH]: %NAME%
 ItemDisplay[RW ETH]: %NAME% (Eth)
 
 // 单手底材
 ItemDisplay[leg]: %NAME%			 // 维特之脚
-ItemDisplay[(crs OR bsd) NMAG SOCK=4 CLVL<80]: %NAME% (%SOCKETS%)   // 精神（80级以下显示）
-ItemDisplay[wsp NMAG SOCK=4 CLVL<80]: %NAME% (%SOCKETS%)	   // 圣雷（80级以下显示）
-ItemDisplay[(crs OR 2ax) NMAG SOCK=5]: %NAME% (%SOCKETS%)   // 战争召唤、野兽（水晶剑、双刃斧）
-ItemDisplay[WP13 NMAG (SK101>2 OR SK121>2 OR SK124>2) SOCK=5]: %NAME% (%SOCKETS%)	  // 战争召唤（权杖）
-ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !INF (SK101>2 OR SK121>2 OR SK124>2) SOCK=0]: %NAME%	  // 战争召唤（权杖，任务打孔）
-ItemDisplay[fla NMAG SOCK=4]: %NAME% (%SOCKETS%)   // 橡树之心
-ItemDisplay[WP12 NMAG SK84>2 SOCK=2]: %NAME%    // 白色
-ItemDisplay[WP12 NMAG !INF SK84>2 SOCK=0]: %NAME%    // 白色（任务打孔）
+ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 精神（90级以下显示）
+ItemDisplay[wsp NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	   // 圣雷（90级以下显示）
+ItemDisplay[(crs OR 2ax) NMAG !ETH SOCK=5]: %NAME% (%SOCKETS%)   // 战争召唤、野兽（水晶剑、双刃斧）
+ItemDisplay[WP13 NMAG !ETH (SK101>2 OR SK121>2 OR SK124>2) SOCK=5]: %NAME% (%SOCKETS%)	  // 战争召唤（权杖）
+ItemDisplay[(wsp OR 9ws OR 7ws) NMAG !ETH !INF (SK101>2 OR SK121>2 OR SK124>2) SOCK=0]: %NAME%	  // 战争召唤（权杖，任务打孔）
+ItemDisplay[fla NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)   // 橡树之心
+ItemDisplay[WP12 NMAG !ETH SK84>2 SOCK=2]: %NAME%    // 白色
+ItemDisplay[WP12 NMAG !ETH !INF SK84>2 SOCK=0]: %NAME%    // 白色（任务打孔）
 ItemDisplay[7cr NMAG SOCK=3]: %NAME% (%SOCKETS%)    // 执法者（幻化）
 ItemDisplay[(7cr OR 7wa) NMAG !ETH (SOCK=4 OR SOCK=5)]: %NAME% (%SOCKETS%)    // 悔恨、热情（幻化、狂战士）
-ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH (SOCK=4 OR SOCK=5)]: %NAME% (Eth) (%SOCKETS%)    // 死神、誓约（狂战士、巨神）
-ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH !INF SOCK=0]: %NAME% (Eth)   // 死神、誓约（狂战士、巨神，打孔）
+ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH (SOCK=4 OR SOCK=5)]: %NAME% (Eth) (%SOCKETS%)    // 死神、誓约（无形狂战士、巨神）
+ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH !INF SOCK=0]: %NAME% (Eth)   // 死神、誓约（无形狂战士、巨神，打孔）
 ItemDisplay[(9tw OR 7tw) NMAG !ETH SK274>2 SOCK=3]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪）
 ItemDisplay[(9tw OR 7tw) NMAG !ETH !INF SK274>2 SOCK=0]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪，打孔）
-ItemDisplay[CL6 NMAG (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=3]: %NAME% (%SOCKETS%)    // 瘟疫（爪）
-ItemDisplay[(clw OR btl OR skr) NMAG !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（普通爪，打孔）
-ItemDisplay[(9lw OR 9tw OR 9qr) NMAG !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（扩展爪，打孔）
-ItemDisplay[CL6 ELT !7xf !7cs NMAG !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（精华爪，打孔）
+ItemDisplay[CL6 NMAG !ETH (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=3]: %NAME% (%SOCKETS%)    // 瘟疫（爪）
+ItemDisplay[(clw OR btl OR skr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（普通爪，打孔）
+ItemDisplay[(9lw OR 9tw OR 9qr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（扩展爪，打孔）
+ItemDisplay[CL6 ELT !7xf !7cs NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（精华爪，打孔）
 
 // 双手底材
-ItemDisplay[(WP7 OR WP8) NMAG !ETH SOCK=4 CLVL<80]: %NAME% (%SOCKETS%)   // 眼光（80级以下显示）
-ItemDisplay[(WP7 OR WP8) NMAG ETH SOCK=4 CLVL<80]: %NAME% (Eth) (%SOCKETS%)   // 眼光（80级以下显示）
+ItemDisplay[(WP7 OR WP8) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 眼光（90级以下显示）
+ItemDisplay[(WP7 OR WP8) NMAG ETH SOCK=4 CLVL<90]: %NAME% (Eth) (%SOCKETS%)   // 眼光（90级以下显示）
 ItemDisplay[(WP7 OR WP8) ELT !7p7 NMAG ETH SOCK=4]: %NAME% (Eth) (%SOCKETS%)   // 四孔无形长矛、长棍
 ItemDisplay[(WP7 OR WP8) ELT !7sr !7p7 !7o7 NMAG ETH !INF !SUP SOCK=0]: %NAME% (Eth)   // 四孔无形长矛、长棍（公式打孔）
 ItemDisplay[(7p7 OR 7gm) NMAG ETH SOCK=6]: %NAME% (Eth) (%SOCKETS%)    // 死亡呼吸（战争长矛、雷锤）
 ItemDisplay[(7p7 OR 7gm) NMAG ETH !INF SOCK=0]: %NAME% (Eth)    // 死亡呼吸（战争长矛、雷锤，打孔）
 ItemDisplay[amc NMAG TABSK0>2 SOCK=4]: %NAME% (%SOCKETS%)    // 信心（大院长）
 ItemDisplay[amc NMAG TABSK0>2 SOCK=0 !INF !SUP]: %NAME%    // 信心（大院长，公式打孔）
-ItemDisplay[(6lb OR 6s7 OR 6lw) SOCK=4 ED>9]: %NAME% %TAN%[%SOCKETS%]    // 信心（阴影、钻石、九头蛇）
+ItemDisplay[(6lb OR 6s7 OR 6lw) SOCK=4 ED>9]: %NAME% %TAN%[%SOCKETS%]    // 信心（10ED阴影、钻石、九头蛇）
 ItemDisplay[WP11 NMAG SK58>2 SOCK=4]: %NAME% (%SOCKETS%)    // 记忆
 ItemDisplay[(wst OR 8ws OR 6ws) NMAG !INF !SUP SK58>2 SOCK=0]: %NAME%    // 记忆（公式打孔）
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) NMAG SK58>2 SOCK=0]: %NAME%   // 记忆（任务打孔）
@@ -99,32 +95,40 @@ ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=3 OR SOCK=4
 ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<80]: %NAME% (%SOCKETS%)	 // 精英轻甲（80级以下显示）
 ItemDisplay[EQ2 ELT NMAG ETH SOCK>2]: %NAME% (Eth) (%SOCKETS%)    // 无形精英甲
 ItemDisplay[EQ2 ELT NMAG ETH !INF DEF>600 SOCK=0]: %NAME% (Eth)    // 无形精英甲（打孔）
+ItemDisplay[ush NMAG !ETH SOCK>1 CLVL<90]: %NAME% (%SOCKETS%)    // 押韵、古代人（洞穴巨魔骨盾，90级以下显示）
+ItemDisplay[uit NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)    // 精神（统盾）
+ItemDisplay[uit NMAG !ETH !INF SOCK=0]: %NAME%    // 精神（统盾，打孔）
+ItemDisplay[CL3 NMAG !ETH SOCK=4 RES>29 CLVL<90]: %NAME% (%SOCKETS%)   // 精神（圣骑士盾，30R以上，90级以下显示）
+ItemDisplay[CL3 NMAG !ETH !INF SOCK=0 RES>29 CLVL<90]: %NAME%   // 精神（圣骑士盾，30R以上，90级以下显示）
+ItemDisplay[(pab OR pac) NMAG !ETH SOCK=4 RES>39]: %NAME% (%SOCKETS%)   // 精神（小盾，40R以上）
+ItemDisplay[(pab OR pac) NMAG !ETH !INF SOCK=0 RES>44]: %NAME%   // 精神（小盾，45R以上，打孔）
+ItemDisplay[paf NMAG ETH SOCK=4 RES>39]: %NAME% (Eth) (%SOCKETS%)   // 流亡（无形旋风，40R以上）
+ItemDisplay[paf NMAG ETH !INF SOCK=0 RES>39]: %NAME% (Eth)   // 流亡（无形旋风，40R以上，打孔）
+ItemDisplay[CL2 NMAG !ETH (SOCK=2 OR SOCK=3) SK149>2]: %NAME% (%SOCKETS%)   // 3BO野蛮人头
+ItemDisplay[CL2 NMAG !ETH !INF SOCK=0 SK149>2]: %NAME%   // 3BO野蛮人头（打孔）
 
 // 蓝装
-ItemDisplay[WEAPON TABSK34>2]: %NAME% %ORANGE%(3BO)    // 3BO武器（染橙）
-ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME% %ORANGE%（3/20）  // 3技能20攻速手（染橙）
+ItemDisplay[WEAPON TABSK34>2]: %NAME% %RED%(3BO)    // 3BO武器（染橙）
+ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME% %RED%(3/20)  // 3技能20攻速手（染橙）
+ItemDisplay[(xvg OR uvg) MAG ILVL>77]: %NAME% %ORANGE%(%ILVL%)   // 吸血手（橙装底材）
+ItemDisplay[(xmg OR umg) MAG ILVL>78]: %NAME% %ORANGE%(%ILVL%)   // 击退手（橙装底材）
+ItemDisplay[EQ4 MAG !ETH]: %NAME%  // 其他手套
 
 // 黄装
 ItemDisplay[CL5 ELT RARE !ETH]: %NAME%    // 刺客爪
 ItemDisplay[CL5 ELT RARE ETH]: %NAME% (Eth)   // 刺客爪（无形）
-ItemDisplay[(aq2 OR cq2) RARE CLVL>79]: %NAME%    // 箭矢、十字弓弹
-ItemDisplay[(EQ4 OR EQ5 OR EQ7) RARE !ETH CLVL>79]: %NAME%    // 手套、鞋子、头饰
-
-// 手工制品
-ItemDisplay[(xvg OR uvg) MAG]: %NAME%  %ORANGE%(%ILVL%)   // 吸血手
-ItemDisplay[(xmg OR umg) MAG]: %NAME%  %ORANGE%(%ILVL%)   // 击退手
-ItemDisplay[(zvb OR uvc) MAG CLVL<80]: %NAME%  %ORANGE%(%ILVL%)   // 施法腰（80级以下显示）
-ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%   // 成品
+ItemDisplay[(aq2 OR cq2) RARE]: %NAME%    // 箭矢、十字弓弹
+ItemDisplay[(EQ4 OR EQ5 OR EQ7) RARE !ETH]: %NAME%    // 手套、鞋子、头饰
 
 // 35000装备
 ItemDisplay[(7tk OR 7ta OR 7bk) (MAG OR RARE OR NMAG) !ETH]: %NAME% ($%PRICE%)    // 小型投掷武器
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %NAME% ($%PRICE%)   // 死灵法杖
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %NAME% ($%PRICE%)   // 死灵法杖
 
-// 屏蔽其他所有
+// 屏蔽其他
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:   // 劣质装备（6级以上）
 ItemDisplay[(WEAPON OR ARMOR) NMAG SOCK=1 CLVL>29]:    // 一孔底材（30级以上）
-ItemDisplay[(ARMOR OR WEAPON) (NMAG OR MAG OR RARE) CLVL>79]:    // 一切（80级以上）
+ItemDisplay[(ARMOR OR WEAPON) (NMAG OR MAG OR RARE) CLVL>79]:    // 其他（80级以上）
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
