@@ -70,10 +70,10 @@ ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH (SOCK=4 OR SOCK=5)]: %NAME% (Eth) (%SOC
 ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH !INF SOCK=0]: %NAME% (Eth)   // 死神、誓约（无形狂战士、巨神，打孔）
 ItemDisplay[(9tw OR 7tw) NMAG !ETH SK274>2 SOCK=3]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪）
 ItemDisplay[(9tw OR 7tw) NMAG !ETH !INF SK274>2 SOCK=0]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪，打孔）
-ItemDisplay[CL6 NMAG !ETH (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=3]: %NAME% (%SOCKETS%)    // 瘟疫（爪）
-ItemDisplay[(clw OR btl OR skr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（普通爪，打孔）
-ItemDisplay[(9lw OR 9tw OR 9qr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（扩展爪，打孔）
-ItemDisplay[CL6 ELT !7xf !7cs NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（精华爪，打孔）
+ItemDisplay[CL6 NMAG !ETH (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=3]: %NAME% (%SOCKETS%)    // 瘟疫（爪）
+ItemDisplay[(clw OR btl OR skr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（普通爪，打孔）
+ItemDisplay[(9lw OR 9tw OR 9qr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（扩展爪，打孔）
+ItemDisplay[CL6 ELT !7xf !7cs NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（精华爪，打孔）
 
 // 双手底材
 ItemDisplay[(WP7 OR WP8) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 眼光（90级以下显示）
@@ -112,6 +112,8 @@ ItemDisplay[paf NMAG ETH !INF SOCK=0 RES>39]: %NAME% (Eth)   // 流亡（无形�
 
 // 头盔底材
 ItemDisplay[(ci3 OR uh9) NMAG !ETH SOCK=3]: %NAME% (%SOCKETS%)   // 梦境
+ItemDisplay[CL1 NMAG !ETH (SOCK=2 OR SOCK=3) (SK221>2 OR SK225>2 OR SK238>2 OR SK239>2 OR SK243>2 OR SK245>2 OR SK250>2)]: %NAME% (%SOCKETS%)   // 德鲁伊头
+ItemDisplay[CL1 NMAG !ETH !INF SOCK=0 (SK221>2 OR SK225>2 OR SK238>2 OR SK239>2 OR SK243>2 OR SK245>2 OR SK250>2)]: %NAME%   // 德鲁伊头（打孔）
 ItemDisplay[CL2 NMAG !ETH (SOCK=2 OR SOCK=3) SK149>2]: %NAME% (%SOCKETS%)   // 3BO野蛮人头
 ItemDisplay[CL2 NMAG !ETH !INF SOCK=0 SK149>2]: %NAME%   // 3BO野蛮人头（打孔）
 ItemDisplay[(CL1 OR CL2 OR CL4) NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)    // 职业防具（90级以下显示）
@@ -133,7 +135,7 @@ ItemDisplay[CL5 ELT RARE ETH]: %NAME% (Eth)   // 刺客爪（无形）
 ItemDisplay[(CL1 OR CL2 OR CL4 OR CL6 OR WP12) RARE !ETH CLVL<90]: %NAME%    // 职业装备（90级以下显示）
 
 // 35000装备
-ItemDisplay[(7tk OR 7ta OR 7bk) (MAG OR RARE OR NMAG) !ETH]: %NAME% ($%PRICE%)    // 小型投掷武器
+ItemDisplay[(7tk OR 7ta OR 7bk) (NMAG OR MAG OR RARE) !ETH]: %NAME% ($%PRICE%)    // 小型投掷武器
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %NAME% ($%PRICE%)   // 死灵法杖
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %NAME% ($%PRICE%)   // 死灵法杖
 
