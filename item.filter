@@ -1,3 +1,16 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 标示地图等级
+ItemDisplay[ma2]: %NAME% (T3)   // 遗忘沙漠
+ItemDisplay[ma4]: %NAME% (T2)   // 亵渎神殿
+ItemDisplay[ma5]: %NAME% (T1)   // 冰冻高原
+ItemDisplay[ma6]: %NAME% (T3)   // 破碎城堡
+ItemDisplay[ma7]: %NAME% (T3)   // 燃烬森林
+ItemDisplay[ma8]: %NAME% (T2)   // 尘封古墓
+ItemDisplay[ma9]: %NAME% (T2)   // 幽暗地窖
+ItemDisplay[ma10]: %NAME% (T1)  // 寒冰地窟
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 屏蔽金币
@@ -34,16 +47,6 @@ ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // �
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通（染红）
 ItemDisplay[gzv OR gly OR glb OR glg OR glr OR glw OR skl]: %RED%%NAME%     // 無瑕疵（染红）
 ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %RED%%NAME%     // 完美（染红）
-
-// 标示地图等级
-ItemDisplay[ma2]: %NAME% (T3)   // 遗忘沙漠
-ItemDisplay[ma4]: %NAME% (T2)   // 亵渎神殿
-ItemDisplay[ma5]: %NAME% (T1)   // 冰冻高原
-ItemDisplay[ma6]: %NAME% (T3)   // 破碎城堡
-ItemDisplay[ma7]: %NAME% (T3)   // 燃烬森林
-ItemDisplay[ma8]: %NAME% (T2)   // 尘封古墓
-ItemDisplay[ma9]: %NAME% (T2)   // 幽暗地窖
-ItemDisplay[ma10]: %NAME% (T1)  // 寒冰地窟
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -124,6 +127,8 @@ ItemDisplay[(EQ4 OR EQ5 OR EQ7) RARE !ETH]: %NAME%    // 手套、鞋子、头�
 ItemDisplay[(7tk OR 7ta OR 7bk) (MAG OR RARE OR NMAG) !ETH]: %NAME% ($%PRICE%)    // 小型投掷武器
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %NAME% ($%PRICE%)   // 死灵法杖
 ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %NAME% ($%PRICE%)   // 死灵法杖
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 屏蔽其他
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:   // 劣质装备（6级以上）
