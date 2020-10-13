@@ -69,7 +69,7 @@ ItemDisplay[(7cr OR 7wa) NMAG !ETH (SOCK=4 OR SOCK=5)]: %NAME% (%SOCKETS%)    //
 ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH (SOCK=4 OR SOCK=5)]: %NAME% (Eth) (%SOCKETS%)    // 死神、誓约（无形狂战士、巨神）
 ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH !INF SOCK=0]: %NAME% (Eth)   // 死神、誓约（无形狂战士、巨神，打孔）
 ItemDisplay[(9tw OR 7tw) NMAG !ETH SK274>2 SOCK=3]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪）
-ItemDisplay[(9tw OR 7tw) NMAG !ETH !INF SK274>2 SOCK=0]: %NAME% (%SOCKETS%)   // 混沌（巨鹰爪、符文爪，打孔）
+ItemDisplay[(9tw OR 7tw) NMAG !ETH !INF SK274>2 SOCK=0]: %NAME%   // 混沌（巨鹰爪、符文爪，打孔）
 ItemDisplay[CL6 NMAG !ETH (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=3]: %NAME% (%SOCKETS%)    // 瘟疫（爪）
 ItemDisplay[(clw OR btl OR skr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（普通爪，打孔）
 ItemDisplay[(9lw OR 9tw OR 9qr) NMAG !ETH !INF (SK262>2 OR SK271>2 OR SK274>2 OR SK276>2 OR SK277>2) SOCK=0]: %NAME%    // 瘟疫（扩展爪，打孔）
