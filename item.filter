@@ -55,7 +55,8 @@ ItemDisplay[RW !ETH]: %NAME%
 ItemDisplay[RW ETH]: %NAME% (Eth)
 
 // 单手底材
-ItemDisplay[leg]: %NAME%			 // 维特之脚
+ItemDisplay[leg OR hdm OR msf OR hst OR g33 OR hfh]: %NAME%			 // 任务装备
+ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %NAME%			 // 任务消耗品
 ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 精神（90级以下显示）
 ItemDisplay[wsp NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	   // 圣雷（90级以下显示）
 ItemDisplay[(crs OR 2ax) NMAG !ETH SOCK=5]: %NAME% (%SOCKETS%)   // 战争召唤、野兽（水晶剑、双刃斧）
