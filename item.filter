@@ -34,10 +34,6 @@ ItemDisplay[(tsc OR isc) CLVL>79]:     // 卷轴（80级以上屏蔽）
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 物品染色与通知
-ItemDisplay[jew MAG]: %NOTIFY-RED%%RED%%NAME%   // 蓝色珠宝（染红、通知）
-ItemDisplay[jew RARE]: %NOTIFY-YELLOW%%NAME%   // 金色珠宝（通知）
-ItemDisplay[cx5]: %NOTIFY-PURPLE%%NAME%		// 腐蚀之珠（通知）
-ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %NOTIFY-PURPLE%%PURPLE%%NAME%    // 护身符（染紫、通知）
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: %RED%%NAME%   // 碎裂（染红）
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // 裂开（染红）
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通（染红）
@@ -47,6 +43,13 @@ ItemDisplay[r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10]:
 ItemDisplay[r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17 OR r18 OR r19 OR r20]: %NOTIFY-ORANGE%%NAME%
 ItemDisplay[r21 OR r22 OR r23 OR r24 OR r25 OR r26 OR r27 OR r28 OR r29 OR r30]: %NOTIFY-ORANGE%%NAME%
 ItemDisplay[r31 OR r32 OR r33]: %NOTIFY-ORANGE%%NAME%
+ItemDisplay[cx5]: %NOTIFY-PURPLE%%NAME%		// 腐蚀之珠（通知）
+ItemDisplay[jew MAG]: %NOTIFY-RED%%RED%%NAME%   // 蓝色珠宝（染红、通知）
+ItemDisplay[jew RARE]: %NOTIFY-YELLOW%%NAME%   // 金色珠宝（通知）
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %NOTIFY-PURPLE%%PURPLE%%NAME%    // 护身符（染紫、通知）
+ItemDisplay[(ARMOR OR WEAPON) SET]: %NOTIFY-GREEN%%GREEN%%NAME%		// 套装（通知）
+ItemDisplay[(ARMOR OR WEAPON) UNI !ETH]: %NOTIFY-GOLD%%GOLD%%NAME%		// 暗金（通知）
+ItemDisplay[(ARMOR OR WEAPON) UNI ETH]: %NOTIFY-GOLD%%GOLD%%NAME% (Eth)		// 无形暗金（通知）
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
