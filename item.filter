@@ -1,4 +1,3 @@
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 标示地图等级
@@ -32,11 +31,6 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:    // 爆炸、瓦
 ItemDisplay[key CLVL>79]:              // 钥匙（80级以上屏蔽）
 ItemDisplay[(tsc OR isc) CLVL>79]:     // 卷轴（80级以上屏蔽）
 
-// 屏蔽低级宝石
-ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc) CLVL>19]:   // 碎裂（20级以上屏蔽）
-ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf) CLVL>29]:   // 裂开（30级以上屏蔽）
-ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku) CLVL>39]:   // 普通（40级以上屏蔽）
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 物品染色
@@ -55,8 +49,8 @@ ItemDisplay[RW !ETH]: %NAME%
 ItemDisplay[RW ETH]: %NAME% (Eth)
 
 // 单手底材
-ItemDisplay[leg OR hdm OR msf OR hst OR g33 OR hfh]: %NAME%			 // 任务装备
-ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %NAME%			 // 任务消耗品
+ItemDisplay[leg OR hdm OR msf OR hst OR g33 OR hfh]: %GOLD%%NAME%		 // 任务装备
+ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %GOLD%%NAME%		 // 任务消耗品
 ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 精神（90级以下显示）
 ItemDisplay[wsp NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)	   // 圣雷（90级以下显示）
 ItemDisplay[(crs OR 2ax) NMAG !ETH SOCK=5]: %NAME% (%SOCKETS%)   // 战争召唤、野兽（水晶剑、双刃斧）
@@ -149,10 +143,10 @@ ItemDisplay[(wnd OR ywn OR 9wn) NMAG (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 屏蔽其他
-ItemDisplay[(aq2 OR cq2) MAG]:    // 箭矢、十字弓弹
+ItemDisplay[(aq2 OR cq2) MAG]:    // 蓝色箭矢、十字弓弹
 ItemDisplay[(WEAPON OR ARMOR) INF CLVL>5]:   // 劣质装备（6级以上）
 ItemDisplay[(WEAPON OR ARMOR) NMAG SOCK=1 CLVL>29]:    // 一孔底材（30级以上）
-ItemDisplay[(ARMOR OR WEAPON) (NMAG OR MAG OR RARE) CLVL>79]:    // 其他（80级以上）
+ItemDisplay[(ARMOR OR WEAPON) (NMAG OR MAG) CLVL>79]:    // 其他（80级以上）
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -162,4 +156,3 @@ ItemDisplay[ETH SOCK=0]: %NAME% (Eth)
 // 标示凹槽数
 ItemDisplay[!ETH SOCK>0]: %NAME% (%SOCKETS%)
 ItemDisplay[ETH SOCK>0]: %NAME% (Eth) (%SOCKETS%)
-
