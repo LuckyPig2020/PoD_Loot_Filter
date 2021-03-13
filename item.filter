@@ -37,7 +37,7 @@ ItemDisplay[(tsc OR isc) CLVL>79]:     // 卷轴（80级以上屏蔽）
 ItemDisplay[jew MAG]: %NOTIFY-RED%%RED%%NAME%   // 蓝色珠宝（染红、通知）
 ItemDisplay[jew RARE]: %NOTIFY-YELLOW%%NAME%   // 金色珠宝（通知）
 ItemDisplay[cx5]: %NOTIFY-PURPLE%%NAME%		// 腐蚀之珠（通知）
-ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %NAME%%NOTIFY-PURPLE%    // 护身符（染紫、通知）
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %NOTIFY-PURPLE%%PURPLE%%NAME%    // 护身符（染紫、通知）
 ItemDisplay[(gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc)]: %RED%%NAME%   // 碎裂（染红）
 ItemDisplay[(gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf)]: %RED%%NAME%   // 裂开（染红）
 ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // 普通（染红）
