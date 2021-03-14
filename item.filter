@@ -95,11 +95,11 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) NMAG SK58>2 SOCK=0]: %NAME%
 
 // 装甲底材
 ItemDisplay[xtp NMAG !ETH SOCK=0 ED>14]: %NAME%		 // 谜团（15ED法铠）
-ItemDisplay[xtp NMAG !ETH SOCK=3 ED>14]: %NAME% (%SOCKETS%)	  // 谜团（三孔15ED法铠）
-ItemDisplay[utp NMAG !ETH SOCK=3 DEF>500 ITEMSTAT91>9]: %NAME% (%SOCKETS%)		 // 谜团（减需执政官）
-ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH SOCK=0 ED>14]: %NAME%	 // 刚毅、荣耀之链（15ED）
-ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=3 OR SOCK=4) ED>9]: %NAME% (%SOCKETS%)	 // 谜团（10ED以上）
-ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)	 // 精英轻甲（90级以下显示）
+ItemDisplay[xtp NMAG !ETH SOCK=3 ED>9]: %NAME% (%SOCKETS%)	  // 谜团（三孔15ED法铠）
+ItemDisplay[utp NMAG !ETH SOCK=3 DEF>500 ITEMSTAT91>4]: %NAME% (%SOCKETS%)		 // 谜团（减需执政官）
+ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH SOCK=0 ED>9]: %NAME%	 // 刚毅、荣耀之链（15ED）
+ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=3 OR SOCK=4) ED>4]: %NAME% (%SOCKETS%)	 // 谜团（10ED以上）
+ItemDisplay[(uui OR uea OR ula OR utu OR urs or utp) NMAG !ETH (SOCK=2 OR SOCK=3) DEF>400]: %NAME% (%SOCKETS%)	 // 精英轻甲（400防御以上）
 ItemDisplay[EQ2 ELT NMAG ETH SOCK>2]: %NAME% (Eth) (%SOCKETS%)    // 无形精英甲
 ItemDisplay[EQ2 ELT NMAG ETH !INF DEF>600 SOCK=0]: %NAME% (Eth)    // 无形精英甲（打孔）
 
