@@ -23,8 +23,8 @@ ItemDisplay[GOLD<8000 CLVL>89]:
 ItemDisplay[(hp1 OR mp1) CLVL>19]:    // 轻微（20级以上屏蔽）
 ItemDisplay[(hp2 OR mp2) CLVL>29]:    // 轻型（30级以上屏蔽）
 ItemDisplay[(hp3 OR mp3) CLVL>39]:    // 普通（40级以上屏蔽）
-ItemDisplay[(hp4 OR mp4) CLVL>59]:    // 强力（60级以上屏蔽）
-ItemDisplay[(vps OR wms OR yps) CLVL>9]:    // 耐力、融解、解毒（20级以上屏蔽）
+ItemDisplay[(hp4 OR mp4) CLVL>69]:    // 强力（70级以上屏蔽）
+ItemDisplay[(vps OR wms OR yps) CLVL>9]:    // 耐力、融解、解毒（10级以上屏蔽）
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>9]:    // 爆炸、瓦斯（10级以上屏蔽）
 
 // 屏蔽钥匙、卷轴
