@@ -53,6 +53,7 @@ ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %GOLD%%NAME%		 // 任务消
 ItemDisplay[jew MAG !ID]: %NOTIFY-RED%%RED%%NAME%   // 蓝色珠宝（通知）
 ItemDisplay[jew MAG]: %RED%%NAME%   // 蓝色珠宝（染红）
 ItemDisplay[jew RARE !ID]: %NOTIFY-YELLOW%%NAME%   // 金色珠宝（通知）
+ItemDisplay[jew UNI !ID]: %NOTIFY-GOLD%%NAME%   // 暗金珠宝（通知）
 ItemDisplay[(cm1 OR cm2 OR cm3) MAG !ID]: %NOTIFY-PURPLE%%PURPLE%%NAME%    // 护身符（通知）
 ItemDisplay[(cm1 OR cm2 OR cm3) MAG]: %PURPLE%%NAME%    // 护身符（染紫）
 ItemDisplay[(amu OR rin) SET !ID]: %NOTIFY-GREEN%%GREEN%%NAME%		// 套装（通知）
