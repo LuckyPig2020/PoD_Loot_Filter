@@ -77,6 +77,7 @@ ItemDisplay[fla NMAG !ETH SOCK=4]: %NAME% (%SOCKETS%)   // 橡树之心
 ItemDisplay[WP12 NMAG !ETH SK84>2 SOCK=2]: %NAME% (%SOCKETS%)    // 白色
 ItemDisplay[WP12 NMAG !ETH !INF SK84>2 SOCK=0]: %NAME%    // 白色（任务打孔）
 ItemDisplay[7cr NMAG SOCK=3]: %NAME% (%SOCKETS%)    // 执法者（幻化）
+ItemDisplay[(7cr OR 7wa) NMAG !ETH SOCK=6]: %NAME% (%SOCKETS%)    // 寂静（幻化、狂战士）
 ItemDisplay[(7cr OR 7wa) NMAG !ETH (SOCK=4 OR SOCK=5)]: %NAME% (%SOCKETS%)    // 悔恨、热情（幻化、狂战士）
 ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH (SOCK=4 OR SOCK=5)]: %NAME% (Eth) (%SOCKETS%)    // 死神、誓约（无形狂战士、巨神）
 ItemDisplay[(7wa OR 7fb OR 7gd) NMAG ETH !INF SOCK=0]: %NAME% (Eth)   // 死神、誓约（无形狂战士、巨神，打孔）
