@@ -13,13 +13,13 @@ ItemDisplay[ma10]: %NAME% (T1)  // 寒冰地窟
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 屏蔽金币
-ItemDisplay[GOLD<100 CLVL>9]:
-ItemDisplay[GOLD<300 CLVL>19]:
-ItemDisplay[GOLD<500 CLVL>29]:
-ItemDisplay[GOLD<700 CLVL>39]:
+ItemDisplay[GOLD<200 CLVL>9]:
+ItemDisplay[GOLD<400 CLVL>19]:
+ItemDisplay[GOLD<600 CLVL>29]:
+ItemDisplay[GOLD<800 CLVL>39]:
 ItemDisplay[GOLD<1000 CLVL>49]:
-ItemDisplay[GOLD<3000 CLVL>79]:
-ItemDisplay[GOLD<5000 CLVL>89]:
+ItemDisplay[GOLD<5000 CLVL>79]:
+ItemDisplay[GOLD<10000 CLVL>89]:
 
 // 屏蔽药水
 ItemDisplay[(hp1 OR mp1) CLVL>19]:    // 轻微（20级以上屏蔽）
