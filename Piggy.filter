@@ -49,9 +49,10 @@ ItemDisplay[(gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku)]: %RED%%NAME%   // �
 ItemDisplay[gzv OR gly OR glb OR glg OR glr OR glw OR skl]: %RED%%NAME%     // 無瑕宝石（染红）
 ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %RED%%NAME%     // 完美宝石（染红）
 
+// 任务物品
+ItemDisplay[ass OR j34 OR hfh]: %NOTIFY-GOLD%%NAME%   // 任务物品（通知）
+
 // 装备染色与通知
-ItemDisplay[leg OR hdm OR msf OR hst OR g33 OR hfh]: %GOLD%%NAME%		 // 任务装备（染暗金）
-ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %GOLD%%NAME%		 // 任务消耗品（染暗金）
 ItemDisplay[jew MAG !ID]: %NOTIFY-RED%%RED%%NAME%   // 蓝色珠宝（通知）
 ItemDisplay[jew MAG]: %RED%%NAME%   // 蓝色珠宝（染红）
 ItemDisplay[jew RARE !ID]: %NOTIFY-YELLOW%%NAME%   // 金色珠宝（通知）
@@ -69,6 +70,10 @@ ItemDisplay[(ARMOR OR WEAPON) UNI !ETH !ID]: %NOTIFY-GOLD%%GOLD%%NAME%		// 暗�
 // 符文之语
 ItemDisplay[RW !ETH]: %NAME%
 ItemDisplay[RW ETH]: %NAME% (Eth)
+
+// 任务物品
+ItemDisplay[leg OR hdm OR msf OR hst OR g33 OR hfh]: %NAME%		 // 任务装备
+ItemDisplay[bks OR bkd OR ass OR tr1 OR bbb OR tr2]: %NAME%		 // 任务消耗品
 
 // 单手底材
 ItemDisplay[(crs OR bsd) NMAG !ETH SOCK=4 CLVL<90]: %NAME% (%SOCKETS%)   // 精神（90级以下显示）
