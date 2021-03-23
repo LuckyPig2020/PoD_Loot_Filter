@@ -143,6 +143,7 @@ ItemDisplay[CL4 NMAG !ETH (SOCK=2 OR SOCK=3) CLVL<90]: %NAME% (%SOCKETS%)    // 
 ItemDisplay[CL4 NMAG !ETH !INF SOCK=0 CLVL<90]: %NAME%    // 死灵盾牌（90级以下显示）
 
 // 蓝装
+ItemDisplay[WEAPON TABSK34>2]: %NOTIFY-RED%%NAME% %RED%(3BO)    // 3BO武器（染红）
 ItemDisplay[WEAPON TABSK34>2]: %NAME% %RED%(3BO)    // 3BO武器（染红）
 ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME% %RED%(3/20)  // 3技能20攻速手（染红）
 ItemDisplay[(xvg OR uvg) MAG ILVL>77]: %NAME% %ORANGE%(%ILVL%)   // 吸血手（橙装底材）
